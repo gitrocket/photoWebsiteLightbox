@@ -1,0 +1,112 @@
+/* css reset */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* body * {
+    outline: 1px solid pink;
+} */
+
+/*** header navbar start ***************************/
+
+.navbar-ul {
+    padding: 20px;
+    background-color: rgb(225,223,221);
+}
+
+.navbar-ul li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar-ul li a {
+    text-decoration: none;
+    color: rgb(203,111,40);
+}
+
+.navbar-ul li a:hover {
+    color: rgb(104,96,96);
+}
+
+/* header font sizes */
+
+.navbar-ul li {
+    font-size: 1.2rem;
+}
+
+/* logo */
+
+#logo {
+    color: rgb(71,63,62);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3rem;
+}
+
+#sub-logo {
+    color: rgb(71,63,62);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2rem;
+}
+
+/*** header navbar end ******************************/
+
+/* dropdown menu *************************************/
+
+.dropbtn {
+    /* background-color: #3498DB; */
+    color: rgb(203,111,40);
+    padding: 8px;
+    font-size: 1.25rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    color:rgb(71,63,62); 
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  rgb(225,223,221);
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {
+    background-color: white;
+    }
+  
+  .show {display: block;}
+
+  /* dropdown menu end ******************************/
+
+/* image *******************************************/
+
+#landing-image {
+    width: 100%;
+    height: auto;
+}
+
